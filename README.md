@@ -8,8 +8,8 @@ I had some setbacks, but I could fix them (finally).
 
 Links I used for help
 ---------------------
-[Examples of transitions (lot of examples)](http://www.the-art-of-web.com/css/css-animation/)
-[As usual...](http://stackoverflow.com/questions/4979738/fire-jquery-event-on-div-change)
+* [Examples of transitions (lot of examples)](http://www.the-art-of-web.com/css/css-animation/)
+* [As usual...](http://stackoverflow.com/questions/4979738/fire-jquery-event-on-div-change)
 
 Why I used setTimeout() to add the active class
 -----------------------------------------------
