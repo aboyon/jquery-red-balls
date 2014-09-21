@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  font-family: Verdana;
+}
+
+.colContainer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.col {
+  vertical-align: bottom;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.ball {
+  border-radius: 50%;
+  background: red;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  opacity:1;
+}
+
+.ball.jq-enter {
+  -webkit-transition: 1s linear all; /* Chrome */
+  transition: 1s linear all;
+  -webkit-transform: translateY(-500px);
+  transform: translateY(-500px); /* For firefox test */
+  opacity: 0;
+}
+
+.ball.jq-enter.jq-enter-active {
+  -webkit-transform: translateY(0);
+  transform: translateY(0); /* For firefox test */
+  opacity: 1;
+}
