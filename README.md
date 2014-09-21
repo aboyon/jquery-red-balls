@@ -17,3 +17,8 @@ That was a very odd case, that I don't understand until now, because I added a e
 So, as a better "workaround" for that, I decided to use a delay to add the class name, and... magically.. worked well. I think the dark side of the force has been conspiring against this test hahaha.
 
 Ok guys, hope to hear about you soon!
+
+Check a live demo
+-----------------
+
+* [live demo](http://static.davidsilveira.me/examples/jquery-red-balls/)
